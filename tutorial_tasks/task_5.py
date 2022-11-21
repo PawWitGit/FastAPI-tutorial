@@ -2,6 +2,7 @@ from typing import List
 
 Image = List[List[int]]
 
+
 def flatten_image(image: Image) -> List:
     flat_list = []
     for sublist in image:
@@ -11,5 +12,5 @@ def flatten_image(image: Image) -> List:
     return flat_list
 
 
-image = [[1,2,3],[4,5,6]]
+image = [[1, 2, 3], [4, 5, 6]]
 print(flatten_image(image))

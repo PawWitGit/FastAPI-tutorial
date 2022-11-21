@@ -9,6 +9,7 @@ packages = [{include = "fastapi_tutorial"}]
 [tool.poetry.dependencies]
 python = "^3.10"
 mypy = "^0.991"
+pydantic = "^1.10.2"
 
 
 [build-system]
