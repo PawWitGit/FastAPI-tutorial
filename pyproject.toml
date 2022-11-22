@@ -10,6 +10,11 @@ packages = [{include = "fastapi_tutorial"}]
 python = "^3.10"
 mypy = "^0.991"
 pydantic = "^1.10.2"
+fastapi = "^0.87.0"
+uvicorn = "^0.20.0"
+pytest = "^7.2.0"
+requests = "^2.28.1"
+typefit = "^0.4.2"
 
 
 [build-system]
