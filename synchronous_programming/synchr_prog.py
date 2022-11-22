@@ -1,0 +1,22 @@
+# Synchronous Program
+
+import time
+import requests
+
+
+def main():
+    request_count = 10
+    url = "https://httpbin.org/get"
+    session = requests.Session()
+    for i in range(request_count):
+        print(f"making request {i}")
+        resp = session.get(url)
+        if resp.status_code == 200:
+            pass
+
+
+start = time.time()
+main()
+end = time.time()
+print("Time elapsed: ", end - start)
+# Output: Time elapsed 4.87 sec

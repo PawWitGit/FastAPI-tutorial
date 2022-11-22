@@ -19,5 +19,3 @@ def test_item_should_add_to_database():
     )
     assert response.status_code == 200
     assert response.text == '{"message":"added item coke"}'
-
-
